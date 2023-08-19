@@ -15,3 +15,25 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+### About the project 
+TODO: format the readme
+
+// we get access to the value that we are trying to store as well as the setter
+  // intial value should be zero -- like the intial rating will be zero and the users sets it after
+  // long term values - for example - a user has already given the rating and we don't want it to reset when they come back - we don't have session management or long term management at this point. Can be done in future, can be passed into the component and use it.
+  // added reset 
+  // now hover rating
+
+why use callback?
+re-initalzed every rerender, instead we use callback to render only if something in this changes
+
+
+  // store what is being clicked
+  // store the rating value - capture it on click and store it in the component itself
+  // we use useState hook to store any kind of local component state
+
+
+  // stars
+  // map over an array to show the stars
+  // values are undefined, but we aren't using them and instead using the index
